@@ -1,7 +1,45 @@
+body {
+  background: #F2E9E4;
+  padding: 3% 5%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+header img {
+  height: 95px;
+  width: 115px;
+}
+
 .elderly {
   font-family: 'Roboto', sans-serif;
 }
 
 .kids {
   font-family: 'Architects Daughter', cursive;
+}
+
+
+@media screen and (max-width: 700px){
+  header {
+    display: inline;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  header img {
+    display: block;
+    height: 60px;
+    width: 85px;
+    margin: 0 auto;
+  }
 }
