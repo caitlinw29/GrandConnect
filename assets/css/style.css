@@ -12,6 +12,15 @@ h1 {
   font-size: 64px;
 }
 
+h2 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 24px;
+}
+
 header img {
   height: 95px;
   width: 115px;
@@ -27,13 +36,26 @@ header img {
 
 
 @media screen and (max-width: 700px){
+  body {
+    text-align: center;
+  }
+
   header {
     display: inline;
-    text-align: center;
   }
 
   h1 {
     font-size: 36px;
+    padding: 1%;
+  }
+
+  h2 {
+    font-size: 28px;
+    padding: 1%;
+  }
+
+  p {
+    font-size: 16px;
   }
 
   header img {
