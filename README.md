@@ -9,7 +9,7 @@ GrandConnect was created to connect elementary school children and senior citize
 ## User Story
 
 ```md
- As a teacher, I want the opportunity for my students to adopt a "class grandparent", so that they have new learning opportunities from another generation. 
+As a teacher, I want the opportunity for my students to adopt a "class grandparent", so that they have new learning opportunities from another generation. 
  ```
 
  ```md
