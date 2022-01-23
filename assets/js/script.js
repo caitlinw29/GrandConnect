@@ -11,7 +11,7 @@ function login(e) {
   } else if (!passwordInput.value){
     signupText.textContent = `Incorrect password!`;
   } else {
-    location.assign('../pages/main-menu.html')
+    location.assign('../pages/sign-in.html')
   }
 }
 
