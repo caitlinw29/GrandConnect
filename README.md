@@ -26,6 +26,10 @@ GrandConnect was created to connect elementary school children and senior citize
 
 ![FormSample](./assets/img/form.png)
 
+![Elderly Calendar](./assets/img/elderlyCalendar.png)
+
+![Kid Calendar](./assets/img/kidCalendar.png)
+
 ## Usage
 
  This is a web-based application that will run in any browser! Simply visit the link.
