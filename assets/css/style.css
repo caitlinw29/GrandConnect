@@ -184,24 +184,24 @@ form input[type=submit]:hover {
   #calendar {
       font-size: 180px;
       background-color: #E5E5E5;
-      padding-bottom: 10%;
-      padding-left: 30%;
+      padding-bottom: 5%;
+      padding-left: 35%;
       
   }
 
   .grid {
     display: grid;
     gap: 4rem;
-    /* grid-auto-flow: dense;  */
     grid-template-columns: repeat(auto-fit, 50rem); 
     justify-content: center;
     margin-top: 30%;
 }
 
-/* .grid > * {
-    align-items: flex-start;
-    background: #eee;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-} */
+#center {
+  text-align: center;
+}
+
+#p-e {
+  margin-top: 10%;
+  font-size: x-large;
+}
