@@ -1,7 +1,114 @@
+body {
+  background: #F2E9E4;
+  padding: 3% 5%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+p,
+label {
+  font-size: 24px;
+}
+
+header img {
+  height: 95px;
+  width: 115px;
+}
+
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+form input[type=text],
+form input[type=password] {
+  width: 650px;
+}
+
+form input[type=submit] {
+  display: block;
+  background: #FC7A57;
+  font-size: 24px;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+}
+
+form input[type=submit]:hover {
+  background: #FDB6A2;
+ 
+}
+
+#signup-text {
+  text-align: center;
+  padding: 2%;
+}
+
 .elderly {
   font-family: 'Roboto', sans-serif;
 }
 
 .kids {
   font-family: 'Architects Daughter', cursive;
+}
+
+
+@media screen and (max-width: 700px){
+  body {
+    text-align: center;
+  }
+
+  header {
+    display: inline;
+  }
+
+  h1 {
+    font-size: 36px;
+    padding: 1%;
+  }
+
+  h2 {
+    font-size: 28px;
+    padding: 1%;
+  }
+
+  p,
+  label {
+    font-size: 16px;
+  }
+
+  form {
+    width: 400px;
+  }
+
+  form input[type=text],
+  form input[type=password] {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  header img {
+    display: block;
+    height: 60px;
+    width: 85px;
+    margin: 0 auto;
+  }
+
+  form input[type=submit] {
+    font-size: 16px;
+  }
 }
