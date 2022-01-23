@@ -10,6 +10,8 @@ body {
        display: flex;
        align-items: center;
        justify-content: center;
+       top: 50%;
+       left: 50%;
      }
    
 .circle2 {
@@ -40,6 +42,16 @@ body {
        font-size: x-large;
        font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
-   
+#center {
+       margin-top: 10%;
+  font-size: x-large;
+    
+}
+#c-c { 
+       margin-top: 10%;
+}
+#cal {
+       font-size:200px;
+       padding: 50%;
+       justify-content: center;
+}
