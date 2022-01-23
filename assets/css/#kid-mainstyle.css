@@ -1,0 +1,39 @@
+body {
+       background-color:#633CCD;   
+}
+
+.circle1 {
+       height: 200px;
+       width: 200px;
+       border-radius: 50%;
+       background-color: #FFE66D;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+   
+.circle2 {
+       width: 50px;
+       height: 100px;
+       background-color: #5DD9C1;
+       border-radius: 50%;
+       justify-content: left;
+     }
+
+.oval { 
+       background:#5DD9C1;
+       justify-content: right;
+}
+
+.oval1 { 
+       background:#5DD9C1;
+       justify-content: top;
+}
+
+.kids { margin-top: 10%;
+       font-size: x-large;
+     }
+
+
+
+   
