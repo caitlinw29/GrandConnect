@@ -40,9 +40,41 @@
       </div>
     </main>
     <section id="elderlySection" class="hidden">
-      
+      <p>Please fill out the form below and submit. It will be sent to the GC coordinator that will match you with an elementary school.</p>
+      <form id="elderly-signup">
+        <label for="home">Nursing home</label><br>
+        <input type="text" id="home" name="home"><br>
+        <label for="coordinator">Coordinator</label><br>
+        <input type="text" id="coordinator" name="coordinator"><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" id="phone" name="phone"><br>
+        <div id="topicsbox">
+          <label class="description">We would like to:</label>
+          <fieldset>
+            <div class="two-col">
+              <span style="white-space: nowrap;"><input type="checkbox" name="choicesE" id="readingE" value="readE" /><label for="readingE">Be read to</label></span><br>
+              <span style="white-space: nowrap;"><input type="checkbox" name="choicesE" id="showE" value="showE" /><label for="showE">Be involved in show-and-tell</label></span><br>
+              <span style="white-space: nowrap;"><input type="checkbox" name="choicesE" id="talkE" value="talkE" /><label for="talkE">Have conversations</label></span><br>
+              <span style="white-space: nowrap;"><input type="checkbox" name="choicesE" id="storyE" value="storyE" /><label for="storyE">Share our stories</label></span><br>
+            </div>
+          </fieldset>
+        </div><br><br>
+        <input type="submit" value="Submit">
+      </form>
     </section>
     <section id="kidSection" class="hidden">
+      <p>Please fill out the form below and submit. It will be sent to the GC coordinator that will match you with an elderly home.</p>
+      <form id="class-signup">
+        <label for="email">Email/Phone number</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <section id="confirmationPage" class="hidden">
 
     </section>
     <script src="../js/signups.js" async defer></script>
