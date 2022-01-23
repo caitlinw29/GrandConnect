@@ -152,3 +152,15 @@ form input[type=submit]:hover {
     width: 60%;
   }
 }
+
+.far {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+}
+
+
+.background-elderly {
+  background-image: linear-gradient(to right, #F3E053, #EDFA51);  
+}
