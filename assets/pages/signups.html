@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="../css/style.css">
   </head>
   <body class="elderly">
-    <header>
+    <header id="hideHeader">
       <h1>Welcome to  </br>GrandConnect!</h1>
       <img src="../img/GC_Logo.png" alt="">
     </header>
@@ -39,6 +39,64 @@
         </div>
       </div>
     </main>
+    <section id="elderlySection" class="hidden">
+      <p>Please fill out the form below and submit. It will be sent to the GC coordinator that will match you with an elementary school.</p>
+      <form id="elderly-signup">
+        <label for="home">Nursing home</label><br>
+        <input type="text" id="home" name="home"><br>
+        <label for="coordinator">Coordinator</label><br>
+        <input type="text" id="coordinator" name="coordinator"><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" id="phone" name="phone"><br>
+        <div id="topicsbox">
+          <label class="description">We would like to:</label>
+          <fieldset>
+            <div class="two-col">
+              <span style="white-space: nowrap;"><input type="checkbox" name="choicesE" id="readingE" value="readE" /><label for="readingE">Be read to</label></span><br>
+              <span style="white-space: nowrap;"><input type="checkbox" name="choicesE" id="showE" value="showE" /><label for="showE">Be involved in show-and-tell</label></span><br>
+              <span style="white-space: nowrap;"><input type="checkbox" name="choicesE" id="talkE" value="talkE" /><label for="talkE">Have conversations</label></span><br>
+              <span style="white-space: nowrap;"><input type="checkbox" name="choicesE" id="storyE" value="storyE" /><label for="storyE">Share our stories</label></span><br>
+            </div>
+          </fieldset>
+        </div><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <section id="kidSection" class="hidden">
+      <p>Please fill out the form below and submit. It will be sent to the GC coordinator that will match you with an elderly home.</p>
+      <form id="kids-signup">
+        <label for="school">School</label><br>
+        <input type="text" id="school" name="school"><br>
+        <label for="grade">Grade</label><br>
+        <input type="text" id="grade" name="grade"><br>
+        <label for="teacher">Teacher</label><br>
+        <input type="text" id="teacher" name="teacher"><br>
+        <label for="emailK">Email</label><br>
+        <input type="email" id="emailK" name="emailK"><br>
+        <label for="phoneK">Phone Number</label><br>
+        <input type="tel" id="phoneK" name="phoneK"><br>
+        <div id="topicsbox">
+          <label class="description">We would like to:</label>
+          <fieldset>
+            <div class="two-col">
+              <span style="white-space: nowrap;"><input type="checkbox" name="choicesK" id="readingK" value="readK" /><label for="readingK">Read to seniors</label></span><br>
+              <span style="white-space: nowrap;"><input type="checkbox" name="choicesK" id="showK" value="showK" /><label for="showK">Show-and-tell</label></span><br>
+              <span style="white-space: nowrap;"><input type="checkbox" name="choicesK" id="talkK" value="talkK" /><label for="talkK">Talk to seniors</label></span><br>
+              <span style="white-space: nowrap;"><input type="checkbox" name="choicesK" id="storyK" value="storyK" /><label for="storyK">Listen to stories</label></span><br>
+            </div>
+          </fieldset>
+        </div><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <section id="confirmationPage" class="hidden">
+      <h2>Thank you for signing up for GrandConnect!</h2>
+      <p>Our coordinator will process your submission and contact you when you have been approved. </p>
+      <p>Look out for an email from coordinator@grandconnect.com that will contain information about who you have been matched with, as well as your login information. </p>
+      <a href="../../index.html"><img src="../img/GC_Logo.png" alt=""></a>
+    </section>
     <script src="../js/signups.js" async defer></script>
   </body>
 </html>
