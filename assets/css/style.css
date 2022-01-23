@@ -31,14 +31,14 @@ header img {
   width: 115px;
 }
 
-form {
+#sign-in {
   width: 650px;
   margin: 0 auto;
   padding: 2%;
 }
 
-form input[type=text],
-form input[type=password] {
+#sign-in input[type=email],
+#sign-in input[type=password] {
   width: 650px;
 }
 
@@ -101,62 +101,6 @@ form input[type=submit]:hover {
   display: none;
 }
 
-@media screen and (max-width: 700px){
-  body {
-    text-align: center;
-  }
-
-  header {
-    display: inline;
-  }
-
-  h1 {
-    font-size: 36px;
-    padding: 1%;
-  }
-
-  h2 {
-    font-size: 28px;
-    padding: 1%;
-  }
-
-  p,
-  label {
-    font-size: 16px;
-  }
-
-  form {
-    width: 400px;
-  }
-
-  form input[type=text],
-  form input[type=password] {
-    width: 350px;
-    margin: 0 auto;
-  }
-
-  header img {
-    display: block;
-    height: 60px;
-    width: 85px;
-    margin: 0 auto;
-  }
-
-  form input[type=submit] {
-    font-size: 16px;
-  }
-
-  #image-links p {
-    padding-top: 10%;
-    font-size: 22px;
-  }
-  
-  #image-links img {
-    height: 55%;
-    width: 60%;
-  }
-}
-
 .far {
   border-radius: 50%;
   width: 150px;
@@ -179,22 +123,21 @@ form input[type=submit]:hover {
   border: black;
   border-style: solid;
   border-radius: 25px;
-  }
+}
 
-  #calendar {
-      font-size: 180px;
-      background-color: #E5E5E5;
-      padding-bottom: 5%;
-      padding-left: 35%;
-      
-  }
+#calendar {
+  font-size: 180px;
+  background-color: #E5E5E5;
+  padding-bottom: 5%;
+  padding-left: 35%;
+}
 
-  .grid {
-    display: grid;
-    gap: 4rem;
-    grid-template-columns: repeat(auto-fit, 50rem); 
-    justify-content: center;
-    margin-top: 30%;
+.grid {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fit, 50rem); 
+  justify-content: center;
+  margin-top: 30%;
 }
 
 #center {
@@ -204,4 +147,137 @@ form input[type=submit]:hover {
 #p-e {
   margin-top: 10%;
   font-size: x-large;
+}
+
+/* FORMS */
+#elderlySection p,
+#kidSection p {
+  width: 750px;
+}
+
+.two-col {
+  column-count: 2;
+  column-gap: 10%;
+}
+
+.two-col input {
+  margin: 1.5%;
+}
+
+#elderly-signup,
+#kids-signup {
+  width: 650px;
+  padding: 1%;
+}
+
+#elderly-signup input[type=email],
+#elderly-signup input[type=tel],
+#elderly-signup input[type=text],
+#kids-signup input[type=email],
+#kids-signup input[type=tel],
+#kids-signup input[type=text] {
+  width: 650px;
+  margin: 1%;
+}
+
+#confirmationPage {
+  text-align: center;
+  padding: 5%;
+}
+
+#confirmationPage p {
+  padding-top: 2%;
+}
+
+#confirmationPage img {
+  padding: 5%;
+}
+
+@media screen and (max-width: 700px){
+  body {
+    text-align: center;
+  }
+
+  header {
+    display: inline;
+  }
+
+  header img {
+    display: block;
+    height: 60px;
+    width: 85px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 36px;
+    padding: 1%;
+  }
+
+  h2 {
+    font-size: 28px;
+    padding: 1%;
+  }
+
+  p,
+  label {
+    font-size: 16px;
+  }
+
+  #sign-in,
+  #elderly-signup,
+  #kids-signup {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  #sign-in input[type=email],
+  #sign-in input[type=password],
+  #elderly-signup input[type=email],
+  #elderly-signup input[type=tel],
+  #elderly-signup input[type=text],
+  #kids-signup input[type=email],
+  #kids-signup input[type=tel],
+  #kids-signup input[type=text] {
+    width: 350px;
+    margin: 0 auto;
+    margin: 1%;
+  }
+
+  #elderly-signup,
+  #kids-signup {
+    text-align: left;
+  }
+
+  #sign-in input[type=submit],
+  #elderly-signup input[type=submit],
+  #kids-signup input[type=submit] {
+    font-size: 16px;
+  }
+
+  #image-links p {
+    padding-top: 10%;
+    font-size: 22px;
+  }
+  
+  #image-links img {
+    height: 55%;
+    width: 60%;
+  }
+
+  #elderlySection p,
+  #kidSection p {
+    width: 350px;
+    margin: 0 auto;
+    padding: 2%;
+  }
+
+  .two-col {
+    column-gap: 15%;
+  }
+
+  #confirmationPage img {
+    height: 200px;
+    width: 200px;
+  }
 }
