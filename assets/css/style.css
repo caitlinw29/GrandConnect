@@ -30,6 +30,7 @@ header img {
 form {
   width: 650px;
   margin: 0 auto;
+  padding: 2%;
 }
 
 form input[type=text],
@@ -51,6 +52,12 @@ form input[type=submit]:hover {
   background: #FDB6A2;
  
 }
+
+#signup-text {
+  text-align: center;
+  padding: 2%;
+}
+
 .elderly {
   font-family: 'Roboto', sans-serif;
 }
@@ -99,5 +106,9 @@ form input[type=submit]:hover {
     height: 60px;
     width: 85px;
     margin: 0 auto;
+  }
+
+  form input[type=submit] {
+    font-size: 16px;
   }
 }
