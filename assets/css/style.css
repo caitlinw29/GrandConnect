@@ -162,5 +162,32 @@ form input[type=submit]:hover {
 
 
 .background-elderly {
-  background-image: linear-gradient(to right, #F3E053, #EDFA51);  
+  background-image: linear-gradient(to right, #F5DC55, #EFEF51);  
+  height: 100%;
 }
+
+.container-elderly {
+  height: 200px;
+  background: #CCCCCC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+
+/* .box-elderly {
+  background-color: #FF4136;
+  width: 900px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+} */
+
+.parent {
+  
+  .child {
+  background-color: #FFFF00;
+  width: 100px;
+  height: 100px;
+  }
