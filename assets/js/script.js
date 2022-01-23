@@ -1,5 +1,3 @@
-//JS
-
 const signupText = document.getElementById("signup-text");
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
