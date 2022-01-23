@@ -180,6 +180,19 @@ form input[type=submit]:hover {
   margin: 1%;
 }
 
+#confirmationPage {
+  text-align: center;
+  padding: 5%;
+}
+
+#confirmationPage p {
+  padding-top: 2%;
+}
+
+#confirmationPage img {
+  padding: 5%;
+}
+
 @media screen and (max-width: 700px){
   body {
     text-align: center;
@@ -261,5 +274,10 @@ form input[type=submit]:hover {
 
   .two-col {
     column-gap: 15%;
+  }
+
+  #confirmationPage img {
+    height: 200px;
+    width: 200px;
   }
 }
