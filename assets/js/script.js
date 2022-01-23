@@ -17,3 +17,7 @@ function login(event) {
 
 form.addEventListener('submit', login);
 
+
+
+$('#warningModal').modal('show');
+
