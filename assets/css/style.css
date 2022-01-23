@@ -17,7 +17,8 @@ h2 {
   font-weight: 300;
 }
 
-p {
+p,
+label {
   font-size: 24px;
 }
 
@@ -26,6 +27,30 @@ header img {
   width: 115px;
 }
 
+form {
+  width: 650px;
+  margin: 0 auto;
+}
+
+form input[type=text],
+form input[type=password] {
+  width: 650px;
+}
+
+form input[type=submit] {
+  display: block;
+  background: #FC7A57;
+  font-size: 24px;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+}
+
+form input[type=submit]:hover {
+  background: #FDB6A2;
+ 
+}
 .elderly {
   font-family: 'Roboto', sans-serif;
 }
@@ -54,8 +79,19 @@ header img {
     padding: 1%;
   }
 
-  p {
+  p,
+  label {
     font-size: 16px;
+  }
+
+  form {
+    width: 400px;
+  }
+
+  form input[type=text],
+  form input[type=password] {
+    width: 350px;
+    margin: 0 auto;
   }
 
   header img {
