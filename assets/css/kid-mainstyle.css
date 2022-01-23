@@ -10,6 +10,7 @@ body {
        display: flex;
        align-items: center;
        justify-content: center;
+
        top: 50%;
        left: 50%;
      }
@@ -42,6 +43,7 @@ body {
        font-size: x-large;
        font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 #center {
        margin-top: 10%;
   font-size: x-large;
@@ -55,3 +57,8 @@ body {
        padding: 50%;
        justify-content: center;
 }
+
+
+
+   
+
