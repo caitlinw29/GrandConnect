@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 //JS
-=======
+
 const signupText = document.getElementById("signup-text");
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
@@ -19,4 +18,4 @@ function login(event) {
 }
 
 form.addEventListener('submit', login);
->>>>>>> 8e5a58c92d65e0948560f2faae715a8ce7946556
+
